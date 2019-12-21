@@ -66,7 +66,7 @@ function getSongs(songName) {
 
   //If user has not specified a song , default to "The Sign" by Ace of Bass
   if (songName === "") {
-    songName = "I Saw the Sign";
+    songName = "The Sign";
   }
 
   spotify.search({ type: 'track', query: songName }, function (err, data) {
